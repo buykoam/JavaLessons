@@ -18,11 +18,14 @@ public class Weather {
             Scanner a = new Scanner(System.in);
             System.out.println("Введите количество осадков за день:");
             ocadki = a.nextInt();
-            list.add(String.valueOf(ocadki));
-
+            list.add(String.valueOf(Integer.valueOf(ocadki)));
+            int sum = 0;
+            for (int item : list) {
+                sum += ocadki;
+            }
+            System.out.println("Количество дней" + number);
+            System.out.println(list.toString());
         }
-        int total = IntStream.of(list).sum();
-        System.out.println("Количество дней" + number);
-        System.out.println("Количество осдаков" + total);
     }
 }
+
