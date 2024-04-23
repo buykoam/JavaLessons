@@ -20,7 +20,7 @@ public class Weather {
             ocadki = a.nextInt();
             list.add(String.valueOf(Integer.valueOf(ocadki)));
             int sum = 0;
-            for (int item : list) {
+            for (String item : list) {
                 sum += ocadki;
             }
             System.out.println("Количество дней" + number);
