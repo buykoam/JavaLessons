@@ -16,7 +16,7 @@ public class SecondMinValue {
         while (console.hasNextInt()) {
             int x = console.nextInt();
             if (x < min) {
-                min = min2;
+                min2 = min;
                 min = x;
             } else if (x < min2 && x != min) {
                 min2 = x;
