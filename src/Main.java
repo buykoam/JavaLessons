@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        ArrayDemo.bubble();
+  //      ArrayDemo.sort();
+  //      ArrayDemo.task1();
+  //      ArrayDemo.task2();
+          ArrayDemo.task3();
     }
 }
