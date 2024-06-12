@@ -9,9 +9,8 @@ public class Elements {
 
     public static void main(String[] args) {
         for (int i = 0; i < array.length; i++) {
-
-            if (array.length % 2 == 0) {
-                array = array - 1;
+            if (array[i] % 2 == 0) {
+                array [i] = array [i]*(-1);
             }
         }
                 //напишите тут ваш код
